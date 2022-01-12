@@ -25,4 +25,4 @@ dict_test = {'Name':['Alisa','Bobby','jodha','jack','raghu','Cathrine',
 df_test = pd.DataFrame(dict_test,columns=['Name','Age','Score'])
 
 test_fc = FirstCases(df).unique_values()
-test_nc, test_main_df = NewCases(df_test).new_values()#get_namespace_view
+test_nc, test_main_df = NewCases(df_test).new_values()
